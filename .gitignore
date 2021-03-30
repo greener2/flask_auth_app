@@ -114,8 +114,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-# .env
-.env/
+# .flaskenv
+.flaskenv/
 .venv/
 env/
 venv/
@@ -304,7 +304,7 @@ fabric.properties
 # SageMath parsed files
 
 # Environments
-# .env
+.flaskenv
 
 # Spyder project settings
 
@@ -324,3 +324,5 @@ fabric.properties
 
 
 # End of https://www.toptal.com/developers/gitignore/api/python,flask,pycharm
+.idea/
+*.sqlite
